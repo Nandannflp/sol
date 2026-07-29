@@ -1,0 +1,6 @@
+{
+  "name": "Solvire",
+  "description": "Your all-rounder solar partner for premium maintenance, buying, and complete energy solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
