@@ -937,8 +937,14 @@ footer {
   justify-content: space-between;
   margin: 0 auto;
   max-width: var(--max-page);
-  padding: 34px clamp(18px, 4vw, 32px);
+  padding: 16px clamp(18px, 4vw, 32px);
   border-top: 1px solid var(--color-border);
+}
+
+footer img {
+  height: 36px;
+  width: auto;
+  max-width: 100%;
 }
 
 footer p {
