@@ -84,7 +84,7 @@ a {
   gap: 24px;
   justify-content: space-between;
   left: 0;
-  padding: 14px clamp(18px, 4vw, 52px);
+  padding: 10px clamp(18px, 4vw, 52px);
   position: sticky;
   right: 0;
   top: 0;
@@ -98,8 +98,9 @@ a {
 }
 
 .brand-link img {
-  height: auto;
-  max-width: min(220px, 44vw);
+  height: 36px;
+  width: auto;
+  max-width: 100%;
 }
 
 nav {
