@@ -9,7 +9,7 @@ function generateFrameUrls() {
   for (const seq of sequences) {
     for (let i = 0; i < 240; i++) {
       const num = String(i).padStart(3, '0');
-      urls.push(`./${seq}/frame_${num}_delay-0.041s.webp`);
+      urls.push(`/${seq}/frame_${num}_delay-0.041s.webp`);
     }
   }
   return urls;
